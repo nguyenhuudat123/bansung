@@ -187,7 +187,7 @@ while running:
     terrorist(terroristX, terroristY)
     pygame.display.update()
 
-    if score_value_police >= 1 or score_value_terrorist >= 1:
+    if score_value_police >= 5 or score_value_terrorist >= 5:
         end_text = end_font.render("END GAME", True, (0, 128, 0))
         screen.blit(end_text, (400, 270))
 
